@@ -2,9 +2,6 @@ from flask import Flask, render_template, request, redirect
 import json
 import os
 
-return render_template("index.html", tasks=tasks)
-
-
 app = Flask(__name__)
 DATA_FILE = "tasks.json"
 
